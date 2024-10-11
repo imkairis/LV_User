@@ -1,13 +1,16 @@
-import React from "react"
-import Heading from "../../common/Heading"
-import "./hero.css"
+import React from "react";
+import Heading from "../../common/Heading";
+import "./hero.css";
 
 const Hero = () => {
   return (
     <>
-      <section className='hero'>
-        <div className='container'>
-          <Heading title='Chăm sóc thú cưng tốt hơn ' subtitle='Với chúng tôi, việc chăm sóc thật đơn giản' />
+      <section className="hero">
+        <div className="container">
+          <Heading
+            title="Chăm sóc thú cưng tốt hơn "
+            subtitle="Với chúng tôi, việc chăm sóc thật đơn giản"
+          />
 
           {/* <form className='flex'>
             <div className='box'>
@@ -32,7 +35,7 @@ const Hero = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
